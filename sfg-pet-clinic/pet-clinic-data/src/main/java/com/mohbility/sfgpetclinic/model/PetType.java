@@ -7,7 +7,8 @@ package com.mohbility.sfgpetclinic.model;
  * @author kbility
  * Date Oct 14, 2018
  */
-public class PetType {
+@SuppressWarnings("serial")
+public class PetType extends BaseEntity {
 	
 	private String name;
 

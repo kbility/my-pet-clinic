@@ -4,7 +4,8 @@ package com.mohbility.sfgpetclinic.model;
  * @author kbility
  * Date Oct 14, 2018
  */
-public class Person {
+@SuppressWarnings("serial")
+public class Person extends BaseEntity {
 	
 	private String firstName;
 	private String lastName;

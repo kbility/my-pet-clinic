@@ -9,7 +9,8 @@ import java.time.LocalDate;
  * @author kbility
  * Date Oct 14, 2018
  */
-public class Pet extends Person {
+@SuppressWarnings("serial")
+public class Pet extends BaseEntity {
 	
 	private PetType petType;
 	private Owner owner;
