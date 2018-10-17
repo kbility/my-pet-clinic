@@ -1,5 +1,5 @@
-com\mohbility\sfgpetclinic\model\Person.class
 com\mohbility\sfgpetclinic\model\PetType.class
+com\mohbility\sfgpetclinic\model\Person.class
 com\mohbility\sfgpetclinic\model\Owner.class
 com\mohbility\sfgpetclinic\model\Vet.class
 com\mohbility\sfgpetclinic\model\Pet.class
