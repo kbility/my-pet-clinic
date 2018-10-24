@@ -3,13 +3,13 @@ package com.mohbility.sfgpetclinic.services.map;
 import java.util.Set;
 
 import com.mohbility.sfgpetclinic.model.Vet;
-import com.mohbility.sfgpetclinic.services.CrudService;
+import com.mohbility.sfgpetclinic.services.VetService;
 
 /**
  * @author kbility
  * Date Oct 21, 2018
  */
-public class VetServiceMap extends AbstractMapService<Vet, Long> implements CrudService<Vet, Long> {
+public class VetServiceMap extends AbstractMapService<Vet, Long> implements VetService {
 
 	 @Override
 	    public Set<Vet> findAll() {

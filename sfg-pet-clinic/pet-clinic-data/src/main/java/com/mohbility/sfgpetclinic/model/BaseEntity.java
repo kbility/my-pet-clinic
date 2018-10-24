@@ -6,9 +6,12 @@ import java.io.Serializable;
  * @author kbility
  * Date Oct 17, 2018
  */
-@SuppressWarnings("serial")
 public class BaseEntity implements Serializable {
 	
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private Long id;
 
 	public Long getId() {

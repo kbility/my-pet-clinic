@@ -3,13 +3,13 @@ package com.mohbility.sfgpetclinic.services.map;
 import java.util.Set;
 
 import com.mohbility.sfgpetclinic.model.Owner;
-import com.mohbility.sfgpetclinic.services.CrudService;
+import com.mohbility.sfgpetclinic.services.OwnerService;
 
 /**
  * @author kbility
  * Date Oct 21, 2018
  */
-public class OwnerServiceMap extends AbstractMapService<Owner, Long> implements CrudService<Owner, Long> {
+public class OwnerServiceMap extends AbstractMapService<Owner, Long> implements OwnerService {
 
 	 @Override
 	    public Set<Owner> findAll() {
@@ -35,5 +35,11 @@ public class OwnerServiceMap extends AbstractMapService<Owner, Long> implements 
 	    public void deleteById(Long id) {
 	        super.deleteById(id);
 	    }
+
+		@Override
+		public Owner findByLastName(String lastName) {
+			// TODO Auto-generated method stub
+			return null;
+		}
 
 }
