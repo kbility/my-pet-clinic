@@ -2,6 +2,8 @@ package com.mohbility.sfgpetclinic.services.map;
 
 import java.util.Set;
 
+import org.springframework.stereotype.Service;
+
 import com.mohbility.sfgpetclinic.model.Pet;
 import com.mohbility.sfgpetclinic.services.PetService;
 
@@ -9,6 +11,7 @@ import com.mohbility.sfgpetclinic.services.PetService;
  * @author kbility
  * Date Oct 21, 2018
  */
+@Service
 public class PetServiceMap extends AbstractMapService<Pet, Long> implements PetService {
 
 	 @Override
