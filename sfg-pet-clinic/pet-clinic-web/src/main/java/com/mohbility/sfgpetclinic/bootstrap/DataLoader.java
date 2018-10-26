@@ -9,6 +9,7 @@ import com.mohbility.sfgpetclinic.model.Vet;
 import com.mohbility.sfgpetclinic.services.OwnerService;
 import com.mohbility.sfgpetclinic.services.VetService;
 
+
 /**
  * @author kbility
  * Date Oct 24, 2018
@@ -39,7 +40,6 @@ public class DataLoader implements CommandLineRunner {
 		Owner owner1 = new Owner();
 		owner1.setFirstName("Michael");
 		owner1.setLastName("Weston");
-		
 		ownerService.save(owner1);
 		
 		Owner owner2 = new Owner();
@@ -60,7 +60,7 @@ public class DataLoader implements CommandLineRunner {
 		vet2.setLastName("Porter");
 		
 		vetService.save(vet2);
-		
+				
 		System.out.println("Loaded Vets....");	
 		
 	}
