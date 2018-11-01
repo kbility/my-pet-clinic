@@ -1,4 +1,0 @@
--------------------------------------------------------------------------------
-Test set: com.mohbility.sfgpetclinic.SfgPetClinicApplicationTests
--------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 10.235 s - in com.mohbility.sfgpetclinic.SfgPetClinicApplicationTests

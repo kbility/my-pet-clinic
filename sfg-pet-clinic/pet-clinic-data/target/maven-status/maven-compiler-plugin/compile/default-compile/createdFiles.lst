@@ -1,9 +1,14 @@
-com\mohbility\sfgpetclinic\services\OwnerService.class
+com\mohbility\sfgpetclinic\services\CrudService.class
+com\mohbility\sfgpetclinic\services\map\PetServiceMap.class
 com\mohbility\sfgpetclinic\model\Person.class
 com\mohbility\sfgpetclinic\model\BaseEntity.class
-com\mohbility\sfgpetclinic\model\PetType.class
+com\mohbility\sfgpetclinic\services\map\VetServiceMap.class
 com\mohbility\sfgpetclinic\services\VetService.class
-com\mohbility\sfgpetclinic\model\Owner.class
 com\mohbility\sfgpetclinic\model\Vet.class
 com\mohbility\sfgpetclinic\model\Pet.class
 com\mohbility\sfgpetclinic\services\PetService.class
+com\mohbility\sfgpetclinic\services\OwnerService.class
+com\mohbility\sfgpetclinic\services\map\AbstractMapService.class
+com\mohbility\sfgpetclinic\model\PetType.class
+com\mohbility\sfgpetclinic\services\map\OwnerServiceMap.class
+com\mohbility\sfgpetclinic\model\Owner.class
