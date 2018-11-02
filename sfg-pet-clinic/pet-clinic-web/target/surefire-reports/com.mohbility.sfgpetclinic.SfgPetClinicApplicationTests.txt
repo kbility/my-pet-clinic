@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: com.mohbility.sfgpetclinic.SfgPetClinicApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 5.533 s <<< FAILURE! - in com.mohbility.sfgpetclinic.SfgPetClinicApplicationTests
+contextLoads(com.mohbility.sfgpetclinic.SfgPetClinicApplicationTests)  Time elapsed: 0.008 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.mohbility.sfgpetclinic.bootstrap.DataLoader] from ClassLoader [jdk.internal.loader.ClassLoaders$AppClassLoader@5ef04b5]
+Caused by: java.lang.NoClassDefFoundError: Lcom/mohbility/sfgpetclinic/services/OwnerService;
+Caused by: java.lang.ClassNotFoundException: com.mohbility.sfgpetclinic.services.OwnerService
+

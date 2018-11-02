@@ -10,7 +10,6 @@ import com.mohbility.sfgpetclinic.model.Vet;
 import com.mohbility.sfgpetclinic.services.OwnerService;
 import com.mohbility.sfgpetclinic.services.PetTypeService;
 import com.mohbility.sfgpetclinic.services.VetService;
-import com.mohbility.sfgpetclinic.services.map.PetTypeMapService;
 
 
 /**
@@ -50,10 +49,12 @@ public class DataLoader implements CommandLineRunner {
 		PetType cat = new PetType();
 		cat.setName("cat");
 		PetType savedCatPetType = petTypeService.save(dog);
-				
+		
+		
 		Owner owner1 = new Owner();
 		owner1.setFirstName("Michael");
 		owner1.setLastName("Weston");
+		owner1.setAddress("232 Grant Street");
 		ownerService.save(owner1);
 		
 		Owner owner2 = new Owner();

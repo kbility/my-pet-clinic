@@ -16,6 +16,7 @@ public class Owner extends Person {
 	private String city;
 	private String telephone;
 	private Set<Pet> pets;
+	
 	public String getAddress() {
 		return address;
 	}
